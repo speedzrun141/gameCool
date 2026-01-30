@@ -1,8 +1,19 @@
 [gd_scene format=3 uid="uid://btraog1gquu7m"]
 
+[ext_resource type="PackedScene" uid="uid://br85qddtlfhgq" path="res://Scenes/player.tscn" id="1_ebmjs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ebmjs"]
+size = Vector2(1591, 113)
+
 [node name="Game" type="Node2D" unique_id=1705766867]
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=394269795]
-position = Vector2(2, -144)
-
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1146505627]
+
+[node name="Node2D" parent="." unique_id=2049575961 instance=ExtResource("1_ebmjs")]
+position = Vector2(255, 458)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=737163233]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1184044095]
+position = Vector2(492, 645)
+shape = SubResource("RectangleShape2D_ebmjs")
