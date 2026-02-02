@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckhb3niaikhuv"
-path="res://.godot/imported/riasIdle.png-a5d62cade4aabe42d6428cd6de60152e.ctex"
+uid="uid://bmro5v2f2xe1a"
+path="res://.godot/imported/riasRunRight.png-66c571848ed0e3602181c07c90f0e240.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Rias/riasIdle.png"
-dest_files=["res://.godot/imported/riasIdle.png-a5d62cade4aabe42d6428cd6de60152e.ctex"]
+source_file="res://Assets/Sprites/Rias/riasRunRight.png"
+dest_files=["res://.godot/imported/riasRunRight.png-66c571848ed0e3602181c07c90f0e240.ctex"]
 
 [params]
 
